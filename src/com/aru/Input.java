@@ -2,7 +2,7 @@ package com.aru;
 
 import java.util.Scanner;
 
-public class input {
+public class Input {
     public static void main(String[] args) {
         Scanner input = new Scanner (System.in);
 //        to get  integer input from user
