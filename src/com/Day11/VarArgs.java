@@ -9,6 +9,7 @@ public class VarArgs {
 
     }
     static void multiple(int a, int b, String ...v){
+        //u can't use the method as multiple (int a, String ...v,int b) because u don't know length of v.
        // System.out.println(Arrays.toString(a,b,...v));
 
     }
