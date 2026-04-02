@@ -10,6 +10,7 @@ public class ArrayListExample {
         //Integer(datatype) is rapper classes.
         ArrayList<Integer> list = new ArrayList<>(1);
 
+
 //        list.add(232);
 //        list.add(233);
 //        list.add(234);
@@ -31,6 +32,8 @@ public class ArrayListExample {
 //        }
 
 
+
         System.out.println(list);
+        System.out.println(list.add(9));
     }
 }
