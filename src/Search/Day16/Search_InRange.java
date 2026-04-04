@@ -15,7 +15,7 @@ public class Search_InRange {
         if(arr.length==0){
             return -1;
         }
-        for(int i =start ;i<end; i++){
+        for(int i =start ;i<=end; i++){
             int element = arr[i];
             if(element==target){
                 return i;
